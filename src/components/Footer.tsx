@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>#4528 Street No 2</li>
+              <li>4528 Street No 2</li>
               <li>Guru Nanak Pura</li>
               <li>Sultanwind Road</li>
               <li>Amritsar, Punjab 143001</li>
