@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dreamscape Travels Website
+
+A modern, professional travel website built with Next.js 16, React 19, and Tailwind CSS.
+
+## Features
+
+- 🎨 Modern, responsive design
+- 🖼️ Image carousel hero section
+- 📦 Tour package showcase
+- 💬 WhatsApp integration for enquiries
+- 📱 Mobile-friendly navigation
+- ⚡ Fast performance with Next.js
+- 🎯 SEO optimized
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ or Bun
+- npm, yarn, or bun
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+# or
+bun install
+```
+
+3. Copy `.env.local.example` to `.env.local` and configure:
+
+```bash
+cp .env.local.example .env.local
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Vercel (Recommended)
 
-## Learn More
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Configure environment variables
+4. Deploy
 
-To learn more about Next.js, take a look at the following resources:
+### Other Platforms
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Configuration
 
-## Deploy on Vercel
+### WhatsApp Integration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Update the phone number in:
+- `src/components/PackagesSection.tsx`
+- `src/components/ContactSection.tsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Images
+
+Place your images in the `/public` folder:
+- Hero carousel: `car1.jpg`, `car2.jpg`, `car3.jpg`, `c5.webp`
+- Services: `flight.jpg`, `hotel.webp`, `tour.png`, `photo.jpeg`, `food.webp`, `transport.jpg`
+- Packages: `c5.webp`, `shimla.jpg`, `gulmarg.jpg`
+- Logo: `head.png`
+
+## Tech Stack
+
+- **Framework:** Next.js 16
+- **UI Library:** React 19
+- **Styling:** Tailwind CSS 4
+- **Components:** Radix UI, shadcn/ui
+- **Icons:** Lucide React
+- **Carousel:** Embla Carousel
+
+## Contact
+
+Dreamscape Travels
+- Phone: +91 88820 00090, +91 84377 97777
+- Email: dreamscapetravals2025@gmail.com
+- Address: #4528 Street No 2, Guru Nanak Pura, Sultanwind Road, Amritsar, Punjab 143001
+
+## License
+
+© 2026 Dreamscape Travels. All rights reserved.
