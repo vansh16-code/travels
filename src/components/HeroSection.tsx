@@ -55,7 +55,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 flex items-center justify-center px-4">
         <div className="text-center text-white max-w-4xl w-full">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 tracking-tight drop-shadow-lg leading-tight">
-            EXPLORE INCREDIBLE INDIA
+            EXPLORE INCREDIBLE NORTH INDIA
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-2 md:mb-4 max-w-2xl mx-auto drop-shadow-md">
             Discover breathtaking destinations from Kashmir to Kanyakumari
