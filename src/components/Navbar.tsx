@@ -31,6 +31,7 @@ export default function Navbar() {
               width={50}
               height={50}
               className="object-contain"
+              style={{ width: 'auto', height: '50px' }}
             />
             <div className="text-white">
               <div className="text-2xl font-bold">DREAMSCAPE</div>

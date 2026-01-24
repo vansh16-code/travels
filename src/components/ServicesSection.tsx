@@ -62,6 +62,7 @@ export default function ServicesSection() {
                       src={service.image}
                       alt={service.title}
                       fill
+                      sizes="112px"
                       className="object-cover"
                     />
                   </div>
@@ -80,12 +81,12 @@ export default function ServicesSection() {
         <div className="mt-8 text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-8 bg-orange-50 px-6 sm:px-8 py-6 rounded-2xl w-full max-w-2xl">
             <div className="text-center flex-1">
-              <div className="text-3xl sm:text-4xl font-bold text-orange-500">500+</div>
+              <div className="text-3xl sm:text-4xl font-bold text-orange-500">2500+</div>
               <div className="text-xs sm:text-sm text-gray-600 mt-1">Happy Clients</div>
             </div>
             <div className="w-full sm:w-px h-px sm:h-12 bg-orange-200"></div>
             <div className="text-center flex-1">
-              <div className="text-3xl sm:text-4xl font-bold text-orange-500">150+</div>
+              <div className="text-3xl sm:text-4xl font-bold text-orange-500">52+</div>
               <div className="text-xs sm:text-sm text-gray-600 mt-1">Destinations</div>
             </div>
             <div className="w-full sm:w-px h-px sm:h-12 bg-orange-200"></div>

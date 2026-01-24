@@ -13,9 +13,9 @@ import Autoplay from "embla-carousel-autoplay"
 export default function HeroSection() {
   const carouselImages = [
     { id: 1, src: "/car1.jpg", alt: "Beautiful Kashmir valley" },
-    { id: 2, src: "/car2.jpg", alt: "Scenic mountain destination" },
-    { id: 3, src: "/car3.jpg", alt: "Himalayan adventure" },
-    { id: 4, src: "/c5.webp", alt: "Kashmir paradise" },
+    { id: 2, src: "/dharam.jpg", alt: "Scenic mountain destination" },
+    { id: 3, src: "/gt.jpg", alt: "Golden Temple" },
+    { id: 4, src: "/kash.jpg", alt: "Kashmir paradise" },
   ]
 
   const handleFindTour = () => {
