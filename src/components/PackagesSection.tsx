@@ -1,12 +1,14 @@
 "use client"
 
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { Star, Check } from "lucide-react"
+import { Star, Check, ArrowRight } from "lucide-react"
 
 export default function PackagesSection() {
   const packages = [
     {
+      id: "shimla-kufri-tour",
       image: "/shimla.jpg",
       title: "Shimla Kufri Tour",
       rating: 4.8,
@@ -20,6 +22,7 @@ export default function PackagesSection() {
       ],
     },
     {
+      id: "manali-special",
       image: "/c5.webp",
       title: "Manali Special",
       rating: 4.9,
@@ -33,6 +36,7 @@ export default function PackagesSection() {
       ],
     },
     {
+      id: "kashmir-complete",
       image: "/gulmarg.jpg",
       title: "Kashmir Complete",
       rating: 4.9,
@@ -46,6 +50,7 @@ export default function PackagesSection() {
       ],
     },
     {
+      id: "delhi-agra-heritage",
       image: "/delhi.jpg",
       title: "Delhi Agra Heritage",
       rating: 4.7,
@@ -59,6 +64,7 @@ export default function PackagesSection() {
       ],
     },
     {
+      id: "golden-temple-amritsar",
       image: "/gt.jpg",
       title: "Golden Temple Amritsar",
       rating: 4.9,
@@ -72,6 +78,7 @@ export default function PackagesSection() {
       ],
     },
     {
+      id: "dharamshala-retreat",
       image: "/dharam.jpg",
       title: "Dharamshala Retreat",
       rating: 4.8,
@@ -110,18 +117,27 @@ export default function PackagesSection() {
               key={index} 
               className="group overflow-hidden hover:shadow-2xl transition-all duration-300 border-0 hover:-translate-y-2 bg-white"
             >
-              <div className="relative h-48 overflow-hidden">
-                <div
-                  className="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                  style={{ backgroundImage: `url(${pkg.image})` }}
-                />
-              </div>
+              <Link href={`/tours/${pkg.id}`}>
+                <div className="relative h-48 overflow-hidden cursor-pointer">
+                  <div
+                    className="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                    style={{ backgroundImage: `url(${pkg.image})` }}
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white rounded-full p-3">
+                      <ArrowRight className="w-6 h-6 text-orange-500" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
               
               <CardContent className="pt-4 space-y-3">
                 <div>
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-orange-500 transition-colors">
-                    {pkg.title}
-                  </h3>
+                  <Link href={`/tours/${pkg.id}`}>
+                    <h3 className="text-xl font-bold mb-2 group-hover:text-orange-500 transition-colors cursor-pointer">
+                      {pkg.title}
+                    </h3>
+                  </Link>
                   
                   <div className="flex items-center gap-2 mb-2">
                     <div className="flex items-center">
@@ -153,12 +169,19 @@ export default function PackagesSection() {
               </CardContent>
 
               <CardFooter className="flex flex-col gap-2 border-t pt-3">
+                <Link href={`/tours/${pkg.id}`} className="w-full">
+                  <Button 
+                    className="w-full bg-orange-500 hover:bg-orange-600 h-9"
+                  >
+                    View Details
+                  </Button>
+                </Link>
                 <Button 
                   onClick={() => handleWhatsAppEnquiry(pkg.title)}
                   variant="outline"
                   className="w-full border-gray-300 hover:bg-gray-50 hover:border-gray-400 h-9"
                 >
-                  Enquire Now
+                  Quick Enquiry
                 </Button>
               </CardFooter>
             </Card>

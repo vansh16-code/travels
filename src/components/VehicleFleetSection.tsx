@@ -36,6 +36,18 @@ export default function VehicleFleetSection() {
         { icon: Luggage, text: "Ample Storage" },
         { icon: Shield, text: "VIP Experience" }
       ]
+    },
+    {
+      name: "Volvo Bus",
+      subtitle: "(35 to 45 Seater)",
+      image: "/volvo.avif",
+      description: "Perfect for large groups and corporate travel. World-class comfort with reclining seats. Multi-axle suspension for smooth rides. Ideal for long-distance tours and events.",
+      features: [
+        { icon: Users, text: "35-45 Seater Capacity" },
+        { icon: Wind, text: "Premium AC System" },
+        { icon: Luggage, text: "Spacious Luggage Hold" },
+        { icon: Shield, text: "Advanced Safety Features" }
+      ]
     }
   ]
 
@@ -50,7 +62,7 @@ export default function VehicleFleetSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {vehicles.map((vehicle, index) => (
             <Card 
               key={index}
