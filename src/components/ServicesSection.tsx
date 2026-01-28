@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card"
+ import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
 export default function ServicesSection() {
@@ -36,7 +36,7 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="py-24 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <section id="services" className="py-24 bg-linear-to-b from-gray-50 to-white relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -56,7 +56,7 @@ export default function ServicesSection() {
             >
               <CardContent className="pt-8">
                 <div className="relative inline-flex items-center justify-center w-32 h-32 mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full blur-md opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                  <div className="absolute inset-0 bg-linear-to-br from-orange-400 to-orange-600 rounded-full blur-md opacity-50 group-hover:opacity-75 transition-opacity"></div>
                   <div className="relative w-28 h-28 rounded-full overflow-hidden border-4 border-white shadow-xl">
                     <Image
                       src={service.image}

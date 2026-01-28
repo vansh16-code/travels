@@ -58,7 +58,7 @@ export default function HeroSection() {
             EXPLORE INCREDIBLE NORTH INDIA
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-2 md:mb-4 max-w-2xl mx-auto drop-shadow-md">
-            Discover breathtaking destinations from Kashmir to Kanyakumari
+            Discover breathtaking destinations from Kashmir to Rajasthan
           </p>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 md:mb-8 drop-shadow-md">
             Your journey to unforgettable memories starts here
