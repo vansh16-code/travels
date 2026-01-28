@@ -94,6 +94,48 @@ export default function GalleryClient() {
       title: "Scenic Landscapes",
       description: "Beautiful natural vistas",
       category: "landscapes"
+    },
+    {
+      src: "/gal1.jpg",
+      title: "Mountain Peaks",
+      description: "Majestic Himalayan ranges",
+      category: "landscapes"
+    },
+    {
+      src: "/gal2.jpg",
+      title: "Cultural Experiences",
+      description: "Traditional festivals and celebrations",
+      category: "culture"
+    },
+    {
+      src: "/gal3.jpg",
+      title: "Happy Moments",
+      description: "Travelers enjoying their journey",
+      category: "people"
+    },
+    {
+      src: "/gal4.jpg",
+      title: "Tourist Attractions",
+      description: "Popular sightseeing spots",
+      category: "destinations"
+    },
+    {
+      src: "/gal5.jpg",
+      title: "Natural Wonders",
+      description: "Stunning natural landscapes",
+      category: "landscapes"
+    },
+    {
+      src: "/gal6.jpg",
+      title: "Heritage Sites",
+      description: "Ancient monuments and temples",
+      category: "culture"
+    },
+    {
+      src: "/gal7.jpg",
+      title: "Travel Companions",
+      description: "Friends and families on tour",
+      category: "people"
     }
   ]
 
