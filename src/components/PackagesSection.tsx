@@ -46,7 +46,8 @@ export default function PackagesSection() {
         "Gulmarg Gondola Ride",
         "Sonmarg Glacier Visit",
         "Pahalgam Valley Tour",
-        "Doodhpathri Meadows"
+        "Doodhpathri Meadows",
+        "Dal Lake Visit"
       ],
     },
     {
