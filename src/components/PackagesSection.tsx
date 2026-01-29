@@ -37,7 +37,7 @@ export default function PackagesSection() {
     },
     {
       id: "kashmir-complete",
-      image: "/gulmarg.jpg",
+      image: "/dal.webp",
       title: "Kashmir Complete",
       rating: 4.9,
       reviews: 328,
@@ -89,6 +89,90 @@ export default function PackagesSection() {
         "Bhagsu Waterfall",
         "Buddha Temple Visit",
         "HPCA Cricket Stadium"
+      ],
+    },
+    {
+      id: "amarnath-yatra",
+      image: "/amarnath.jpg",
+      title: "Amarnath Yatra",
+      rating: 4.9,
+      reviews: 567,
+      description: "Sacred pilgrimage to holy Amarnath Cave with divine ice Shiva Lingam",
+      features: [
+        "Holy Cave Darshan",
+        "Baltal/Pahalgam Route",
+        "Helicopter Services",
+        "Spiritual Experience"
+      ],
+    },
+    {
+      id: "vaishno-devi-yatra",
+      image: "/devii.jpg",
+      title: "Mata Vaishno Devi",
+      rating: 4.9,
+      reviews: 892,
+      description: "Seek blessings at the sacred shrine of Mata Vaishno Devi in Trikuta Mountains",
+      features: [
+        "Holy Darshan",
+        "Bhairon Temple",
+        "Ardhkuwari Cave",
+        "Ropeway Available"
+      ],
+    },
+    {
+      id: "rajasthan-royal-tour",
+      image: "/rajas.jpg",
+      title: "Rajasthan Royal Tour",
+      rating: 4.8,
+      reviews: 445,
+      description: "Explore royal heritage of Jaipur, Jodhpur & Jaisalmer with desert safari",
+      features: [
+        "Jaipur Pink City",
+        "Jodhpur Blue City",
+        "Jaisalmer Desert Safari",
+        "Royal Forts & Palaces"
+      ],
+    },
+    {
+      id: "nainital-retreat",
+      image: "/nanital.jpg",
+      title: "Nainital Lake Paradise",
+      rating: 4.7,
+      reviews: 334,
+      description: "Beautiful lake town in Kumaon hills with boating and scenic viewpoints",
+      features: [
+        "Naini Lake Boating",
+        "Snow View Point",
+        "Mall Road Shopping",
+        "Tiffin Top Views"
+      ],
+    },
+    {
+      id: "char-dham-yatra",
+      image: "/dham.jpg",
+      title: "Char Dham Yatra",
+      rating: 4.9,
+      reviews: 678,
+      description: "Sacred pilgrimage to Yamunotri, Gangotri, Kedarnath & Badrinath",
+      features: [
+        "Four Sacred Dhams",
+        "Himalayan Spirituality",
+        "Kedarnath Jyotirlinga",
+        "Divine Experience"
+      ],
+    },
+    {
+      id: "ladakh-adventure",
+      image: "/ladakh.jpg",
+      title: "Ladakh Adventure",
+      rating: 4.9,
+      reviews: 523,
+      description: "Experience high-altitude passes, Pangong Lake, Nubra Valley & monasteries",
+      features: [
+        "Pangong Lake",
+        "Nubra Valley Safari",
+        "Khardung La Pass",
+        "Buddhist Monasteries"
       ],
     },
   ]

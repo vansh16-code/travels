@@ -190,7 +190,7 @@ export const tourPackages: TourPackage[] = [
   {
     id: "kashmir-complete",
     title: "Kashmir Complete",
-    image: "/gulmarg.jpg",
+    image: "/dal.webp",
     rating: 4.9,
     reviews: 328,
     duration: "6 Days / 5 Nights",
@@ -522,6 +522,677 @@ export const tourPackages: TourPackage[] = [
       "Tips"
     ],
     bestTime: "March to June, September to November",
+    difficulty: "Moderate to Challenging"
+  },
+  {
+    id: "amarnath-yatra",
+    title: "Amarnath Yatra",
+    image: "/amarnath.jpg",
+    rating: 4.9,
+    reviews: 567,
+    duration: "5 Days / 4 Nights",
+    description: "Embark on a sacred pilgrimage to the holy Amarnath Cave. Experience divine blessings at one of Hinduism's most revered shrines with the naturally formed ice Shiva Lingam.",
+    highlights: [
+      "Holy Amarnath Cave Darshan",
+      "Baltal or Pahalgam route options",
+      "Scenic helicopter services available",
+      "Spiritual atmosphere and devotion",
+      "Beautiful mountain landscapes",
+      "Well-organized yatra arrangements"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Srinagar",
+        description: "Arrive in Srinagar and prepare for the sacred journey.",
+        activities: [
+          "Airport pick up",
+          "Transfer to hotel in Srinagar",
+          "Medical check-up and registration",
+          "Yatra briefing and preparations",
+          "Visit local market for essentials",
+          "Early dinner and rest"
+        ]
+      },
+      {
+        day: 2,
+        title: "Srinagar to Baltal/Pahalgam",
+        description: "Journey to the base camp for Amarnath Yatra.",
+        activities: [
+          "Early morning departure",
+          "Drive to Baltal or Pahalgam base camp",
+          "Registration and security check",
+          "Check-in to camp accommodation",
+          "Acclimatization and rest",
+          "Evening prayers",
+          "Overnight at base camp"
+        ]
+      },
+      {
+        day: 3,
+        title: "Amarnath Cave Darshan",
+        description: "The sacred day of pilgrimage to Amarnath Cave.",
+        activities: [
+          "Very early morning start (2-3 AM)",
+          "Trek/pony ride to Amarnath Cave",
+          "Holy Darshan of ice Shiva Lingam",
+          "Prayers and offerings",
+          "Return trek to base camp",
+          "Rest and recuperation",
+          "Overnight at base camp"
+        ]
+      },
+      {
+        day: 4,
+        title: "Return to Srinagar",
+        description: "Journey back to Srinagar after completing the yatra.",
+        activities: [
+          "Breakfast at base camp",
+          "Drive back to Srinagar",
+          "Check-in to hotel",
+          "Rest and relaxation",
+          "Optional: Shikara ride on Dal Lake",
+          "Overnight in Srinagar"
+        ]
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description: "Depart with divine blessings and memories.",
+        activities: [
+          "Breakfast at hotel",
+          "Last minute shopping",
+          "Visit Shankaracharya Temple (optional)",
+          "Airport drop",
+          "Departure with blessings"
+        ]
+      }
+    ],
+    inclusions: [
+      "AC vehicle for all transfers",
+      "4 nights accommodation (hotel + camps)",
+      "Daily breakfast and dinner",
+      "Yatra registration assistance",
+      "Medical support at base camp",
+      "All permits and entry fees"
+    ],
+    exclusions: [
+      "Helicopter charges (if opted)",
+      "Pony/porter charges",
+      "Personal medical expenses",
+      "Travel insurance",
+      "Lunch and snacks",
+      "Tips and donations"
+    ],
+    bestTime: "July to August (Yatra season only)",
+    difficulty: "Challenging"
+  },
+  {
+    id: "vaishno-devi-yatra",
+    title: "Mata Vaishno Devi Yatra",
+    image: "/devii.jpg",
+    rating: 4.9,
+    reviews: 892,
+    duration: "3 Days / 2 Nights",
+    description: "Seek blessings at the sacred shrine of Mata Vaishno Devi. Experience divine spirituality at one of India's most visited pilgrimage sites nestled in the Trikuta Mountains.",
+    highlights: [
+      "Holy Darshan at Vaishno Devi Temple",
+      "Bhairon Temple visit",
+      "Ardhkuwari Cave temple",
+      "Ropeway and helicopter options",
+      "24/7 yatra facilities",
+      "Spiritual and peaceful atmosphere"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Katra",
+        description: "Arrive at the base town and prepare for the pilgrimage.",
+        activities: [
+          "Pick up from Jammu airport/station",
+          "Drive to Katra (2 hours)",
+          "Check-in to hotel",
+          "Yatra slip collection",
+          "Visit Katra market",
+          "Evening aarti at local temple",
+          "Early dinner and rest"
+        ]
+      },
+      {
+        day: 2,
+        title: "Vaishno Devi Darshan",
+        description: "The sacred day of pilgrimage to Mata's shrine.",
+        activities: [
+          "Early morning start (2-3 AM recommended)",
+          "Trek/pony ride to Bhawan (13 km)",
+          "Holy Darshan at main shrine",
+          "Prayers and offerings",
+          "Visit Bhairon Temple (optional)",
+          "Return trek to Katra",
+          "Rest at hotel",
+          "Overnight in Katra"
+        ]
+      },
+      {
+        day: 3,
+        title: "Departure",
+        description: "Depart with Mata's blessings.",
+        activities: [
+          "Breakfast at hotel",
+          "Check-out",
+          "Optional: Visit Ardhkuwari Temple",
+          "Shopping for prasad",
+          "Drop at Jammu airport/station",
+          "Departure"
+        ]
+      }
+    ],
+    inclusions: [
+      "AC vehicle for Jammu-Katra transfers",
+      "2 nights accommodation in Katra",
+      "Daily breakfast",
+      "Yatra registration assistance",
+      "All toll taxes and parking"
+    ],
+    exclusions: [
+      "Helicopter/ropeway charges",
+      "Pony/palanquin charges",
+      "Lunch and dinner",
+      "Offerings and donations",
+      "Personal expenses",
+      "Battery car charges"
+    ],
+    bestTime: "September to June (avoid monsoon)",
+    difficulty: "Moderate"
+  },
+  {
+    id: "rajasthan-royal-tour",
+    title: "Rajasthan Royal Tour",
+    image: "/delhi.jpg",
+    rating: 4.8,
+    reviews: 445,
+    duration: "7 Days / 6 Nights",
+    description: "Explore the royal heritage of Rajasthan covering Jaipur, Jodhpur, and Jaisalmer. Experience magnificent forts, palaces, desert safaris, and rich cultural traditions.",
+    highlights: [
+      "Jaipur - Pink City exploration",
+      "Jodhpur - Blue City and Mehrangarh Fort",
+      "Jaisalmer - Golden City and desert safari",
+      "Camel safari in Thar Desert",
+      "Royal palaces and forts",
+      "Traditional Rajasthani culture"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Jaipur",
+        description: "Welcome to the Pink City of India.",
+        activities: [
+          "Airport/station pick up",
+          "Check-in to hotel",
+          "Visit Birla Temple",
+          "Evening at Chokhi Dhani (optional)",
+          "Traditional Rajasthani dinner",
+          "Overnight in Jaipur"
+        ]
+      },
+      {
+        day: 2,
+        title: "Jaipur Sightseeing",
+        description: "Explore the magnificent monuments of Jaipur.",
+        activities: [
+          "Visit Amber Fort with elephant ride",
+          "Jal Mahal photo stop",
+          "City Palace and museum",
+          "Jantar Mantar observatory",
+          "Hawa Mahal (Palace of Winds)",
+          "Shopping at Johari Bazaar",
+          "Overnight in Jaipur"
+        ]
+      },
+      {
+        day: 3,
+        title: "Jaipur to Jodhpur",
+        description: "Journey to the Blue City.",
+        activities: [
+          "Breakfast and check-out",
+          "Drive to Jodhpur (5-6 hours)",
+          "Check-in to hotel",
+          "Visit Jaswant Thada",
+          "Evening at Clock Tower market",
+          "Overnight in Jodhpur"
+        ]
+      },
+      {
+        day: 4,
+        title: "Jodhpur Sightseeing",
+        description: "Explore the majestic Mehrangarh Fort.",
+        activities: [
+          "Visit Mehrangarh Fort",
+          "Museum and palace tour",
+          "Umaid Bhawan Palace (exterior)",
+          "Mandore Gardens",
+          "Blue city walking tour",
+          "Local handicraft shopping",
+          "Overnight in Jodhpur"
+        ]
+      },
+      {
+        day: 5,
+        title: "Jodhpur to Jaisalmer",
+        description: "Travel to the Golden City of the desert.",
+        activities: [
+          "Drive to Jaisalmer (5-6 hours)",
+          "Check-in to hotel",
+          "Visit Gadisar Lake",
+          "Evening walk in old city",
+          "Sunset at fort ramparts",
+          "Overnight in Jaisalmer"
+        ]
+      },
+      {
+        day: 6,
+        title: "Jaisalmer Fort & Desert Safari",
+        description: "Experience the golden fort and desert adventure.",
+        activities: [
+          "Jaisalmer Fort exploration",
+          "Patwon Ki Haveli visit",
+          "Salim Singh Ki Haveli",
+          "Afternoon drive to Sam Sand Dunes",
+          "Camel safari in desert",
+          "Cultural program and dinner",
+          "Overnight at desert camp"
+        ]
+      },
+      {
+        day: 7,
+        title: "Departure",
+        description: "Farewell to the royal land of Rajasthan.",
+        activities: [
+          "Sunrise at sand dunes",
+          "Breakfast at camp",
+          "Return to Jaisalmer",
+          "Last minute shopping",
+          "Drop at airport/station",
+          "Departure"
+        ]
+      }
+    ],
+    inclusions: [
+      "AC vehicle for all transfers and sightseeing",
+      "6 nights accommodation (hotels + desert camp)",
+      "Daily breakfast",
+      "Desert safari with cultural program",
+      "All monument entry fees",
+      "Professional guide services"
+    ],
+    exclusions: [
+      "Lunch and dinner (except desert camp)",
+      "Elephant ride at Amber Fort",
+      "Camera fees at monuments",
+      "Personal expenses",
+      "Tips and gratuities"
+    ],
+    bestTime: "October to March",
+    difficulty: "Easy"
+  },
+  {
+    id: "nainital-retreat",
+    title: "Nainital Lake Paradise",
+    image: "/nanital.jpg",
+    rating: 4.7,
+    reviews: 334,
+    duration: "4 Days / 3 Nights",
+    description: "Escape to the beautiful lake town of Nainital nestled in the Kumaon hills. Enjoy boating, scenic viewpoints, and pleasant weather in this charming hill station.",
+    highlights: [
+      "Naini Lake boating experience",
+      "Mall Road shopping and cafes",
+      "Naina Devi Temple visit",
+      "Snow View Point cable car",
+      "Tiffin Top and Land's End",
+      "Scenic mountain views"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Nainital",
+        description: "Welcome to the Lake District of India.",
+        activities: [
+          "Pick up from Kathgodam station/Pantnagar airport",
+          "Scenic drive to Nainital",
+          "Check-in to hotel",
+          "Evening walk at Mall Road",
+          "Boating at Naini Lake",
+          "Overnight in Nainital"
+        ]
+      },
+      {
+        day: 2,
+        title: "Nainital Local Sightseeing",
+        description: "Explore the beautiful attractions of Nainital.",
+        activities: [
+          "Visit Naina Devi Temple",
+          "Cable car to Snow View Point",
+          "Enjoy panoramic Himalayan views",
+          "Visit Governor's House",
+          "Explore Tibetan Market",
+          "Evening at Mall Road",
+          "Overnight in Nainital"
+        ]
+      },
+      {
+        day: 3,
+        title: "Nainital Excursion",
+        description: "Visit nearby scenic spots and viewpoints.",
+        activities: [
+          "Visit Tiffin Top (Dorothy's Seat)",
+          "Land's End viewpoint",
+          "Lover's Point",
+          "Eco Cave Gardens",
+          "Hanuman Garhi temple",
+          "Shopping for local handicrafts",
+          "Overnight in Nainital"
+        ]
+      },
+      {
+        day: 4,
+        title: "Departure",
+        description: "Farewell to the beautiful lake town.",
+        activities: [
+          "Breakfast at hotel",
+          "Last minute boating (optional)",
+          "Check-out",
+          "Shopping for candles and souvenirs",
+          "Drop at Kathgodam/Pantnagar",
+          "Departure"
+        ]
+      }
+    ],
+    inclusions: [
+      "AC vehicle for all transfers",
+      "3 nights accommodation",
+      "Daily breakfast",
+      "Boating at Naini Lake",
+      "All sightseeing as per itinerary",
+      "Driver allowance and fuel"
+    ],
+    exclusions: [
+      "Lunch and dinner",
+      "Cable car charges",
+      "Entry fees to attractions",
+      "Personal expenses",
+      "Tips"
+    ],
+    bestTime: "March to June, September to November",
+    difficulty: "Easy"
+  },
+  {
+    id: "char-dham-yatra",
+    title: "Char Dham Yatra",
+    image: "/dham.jpg",
+    rating: 4.9,
+    reviews: 678,
+    duration: "7 Days / 6 Nights",
+    description: "Embark on the sacred Char Dham pilgrimage covering Yamunotri, Gangotri, Kedarnath, and Badrinath. Experience divine spirituality in the lap of the Himalayas.",
+    highlights: [
+      "Yamunotri - Source of Yamuna River",
+      "Gangotri - Origin of Holy Ganga",
+      "Kedarnath - One of 12 Jyotirlingas",
+      "Badrinath - Abode of Lord Vishnu",
+      "Scenic Himalayan landscapes",
+      "Spiritual and divine experience"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Haridwar to Barkot",
+        description: "Begin your sacred journey towards Yamunotri.",
+        activities: [
+          "Pick up from Haridwar/Dehradun",
+          "Drive to Barkot via Mussoorie",
+          "Scenic mountain roads",
+          "Check-in to hotel in Barkot",
+          "Evening prayers and briefing",
+          "Overnight in Barkot"
+        ]
+      },
+      {
+        day: 2,
+        title: "Yamunotri Darshan & Drive to Uttarkashi",
+        description: "Visit Yamunotri and proceed to Uttarkashi.",
+        activities: [
+          "Drive to Janki Chatti",
+          "Trek/pony ride to Yamunotri (6 km)",
+          "Darshan at Yamunotri Temple",
+          "Holy dip in Surya Kund",
+          "Return and drive to Uttarkashi",
+          "Check-in to hotel",
+          "Overnight in Uttarkashi"
+        ]
+      },
+      {
+        day: 3,
+        title: "Gangotri Darshan & Return",
+        description: "Visit the origin of Holy Ganga.",
+        activities: [
+          "Drive to Gangotri",
+          "Darshan at Gangotri Temple",
+          "Visit Bhagirathi Shila",
+          "Holy dip in Ganga",
+          "Return to Uttarkashi",
+          "Evening aarti",
+          "Overnight in Uttarkashi"
+        ]
+      },
+      {
+        day: 4,
+        title: "Uttarkashi to Guptkashi via Kedarnath",
+        description: "Journey to Kedarnath for darshan.",
+        activities: [
+          "Drive to Gaurikund/Sonprayag",
+          "Trek/helicopter to Kedarnath",
+          "Darshan at Kedarnath Temple",
+          "Prayers at Jyotirlinga",
+          "Return to base",
+          "Drive to Guptkashi",
+          "Overnight in Guptkashi"
+        ]
+      },
+      {
+        day: 5,
+        title: "Guptkashi to Badrinath",
+        description: "Journey to the final dham.",
+        activities: [
+          "Drive to Badrinath",
+          "En route visit Joshimath",
+          "Check-in to hotel",
+          "Evening darshan at temple",
+          "Attend evening aarti",
+          "Overnight in Badrinath"
+        ]
+      },
+      {
+        day: 6,
+        title: "Badrinath Sightseeing",
+        description: "Explore Badrinath and nearby attractions.",
+        activities: [
+          "Early morning darshan",
+          "Visit Tapt Kund hot springs",
+          "Brahma Kapal rituals",
+          "Visit Mana Village",
+          "Vyas Gufa and Ganesh Gufa",
+          "Bhim Pul",
+          "Overnight in Badrinath"
+        ]
+      },
+      {
+        day: 7,
+        title: "Badrinath to Haridwar",
+        description: "Complete the sacred yatra and return.",
+        activities: [
+          "Early morning final darshan",
+          "Drive back to Haridwar",
+          "En route visit Devprayag",
+          "Arrive Haridwar",
+          "Drop at station/airport",
+          "Departure with blessings"
+        ]
+      }
+    ],
+    inclusions: [
+      "AC vehicle for all transfers",
+      "6 nights accommodation",
+      "Daily breakfast and dinner",
+      "All sightseeing as per itinerary",
+      "Driver allowance and fuel",
+      "All toll taxes and parking"
+    ],
+    exclusions: [
+      "Helicopter charges for Kedarnath",
+      "Pony/porter charges",
+      "Lunch and snacks",
+      "Personal expenses",
+      "Travel insurance",
+      "Offerings and donations"
+    ],
+    bestTime: "May to June, September to October",
+    difficulty: "Challenging"
+  },
+  {
+    id: "ladakh-adventure",
+    title: "Ladakh Adventure",
+    image: "/ladakh.jpg",
+    rating: 4.9,
+    reviews: 523,
+    duration: "7 Days / 6 Nights",
+    description: "Experience the breathtaking beauty of Ladakh with high-altitude passes, pristine lakes, and ancient monasteries. Adventure through the land of high passes with stunning landscapes.",
+    highlights: [
+      "Pangong Lake - famous blue water lake",
+      "Nubra Valley - sand dunes and camels",
+      "Khardung La - world's highest motorable pass",
+      "Magnetic Hill phenomenon",
+      "Ancient Buddhist monasteries",
+      "Leh Palace and local markets"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Leh",
+        description: "Arrive in the land of high passes and acclimatize.",
+        activities: [
+          "Airport pick up",
+          "Transfer to hotel in Leh",
+          "Complete rest for acclimatization",
+          "Light walk around hotel area",
+          "Avoid heavy activities",
+          "Early dinner and sleep",
+          "Overnight in Leh"
+        ]
+      },
+      {
+        day: 2,
+        title: "Leh Local Sightseeing",
+        description: "Explore the cultural attractions of Leh.",
+        activities: [
+          "Visit Shanti Stupa",
+          "Leh Palace exploration",
+          "Hall of Fame museum",
+          "Magnetic Hill experience",
+          "Gurudwara Pathar Sahib",
+          "Sangam (confluence of Indus & Zanskar)",
+          "Evening at Leh market",
+          "Overnight in Leh"
+        ]
+      },
+      {
+        day: 3,
+        title: "Leh to Nubra Valley",
+        description: "Cross Khardung La to reach the valley of flowers.",
+        activities: [
+          "Early morning departure",
+          "Drive via Khardung La Pass (18,380 ft)",
+          "Photo stop at pass",
+          "Descend to Nubra Valley",
+          "Check-in to camp/hotel in Hunder",
+          "Visit sand dunes",
+          "Double-humped camel ride",
+          "Overnight in Nubra"
+        ]
+      },
+      {
+        day: 4,
+        title: "Nubra Valley Exploration",
+        description: "Explore the beautiful Nubra Valley.",
+        activities: [
+          "Visit Diskit Monastery",
+          "See giant Buddha statue",
+          "Explore Hunder village",
+          "Visit Sumur village (optional)",
+          "Enjoy valley views",
+          "Photography at scenic spots",
+          "Overnight in Nubra"
+        ]
+      },
+      {
+        day: 5,
+        title: "Nubra to Pangong Lake",
+        description: "Journey to the famous blue water lake.",
+        activities: [
+          "Drive to Pangong via Shyok route",
+          "Scenic mountain roads",
+          "Arrive at Pangong Lake",
+          "Check-in to camp",
+          "Enjoy lake views",
+          "Photography session",
+          "Witness color-changing lake",
+          "Overnight at Pangong"
+        ]
+      },
+      {
+        day: 6,
+        title: "Pangong to Leh",
+        description: "Return to Leh via Chang La pass.",
+        activities: [
+          "Sunrise at Pangong Lake",
+          "Breakfast with lake view",
+          "Drive back to Leh via Chang La",
+          "Visit Changla Pass (17,590 ft)",
+          "Stop at Thiksey Monastery",
+          "Visit Shey Palace",
+          "Return to Leh",
+          "Overnight in Leh"
+        ]
+      },
+      {
+        day: 7,
+        title: "Departure from Leh",
+        description: "Farewell to the magical land of Ladakh.",
+        activities: [
+          "Breakfast at hotel",
+          "Last minute shopping at Leh market",
+          "Buy local handicrafts and souvenirs",
+          "Airport drop",
+          "Departure with memories"
+        ]
+      }
+    ],
+    inclusions: [
+      "AC vehicle for all transfers (Innova/Xylo)",
+      "6 nights accommodation (hotels + camps)",
+      "Daily breakfast and dinner",
+      "Inner line permits",
+      "All sightseeing as per itinerary",
+      "Driver allowance and fuel"
+    ],
+    exclusions: [
+      "Airfare to/from Leh",
+      "Lunch and snacks",
+      "Camel ride charges",
+      "Entry fees to monasteries",
+      "Personal expenses",
+      "Travel insurance",
+      "Tips and gratuities"
+    ],
+    bestTime: "May to September",
     difficulty: "Moderate to Challenging"
   }
 ]
