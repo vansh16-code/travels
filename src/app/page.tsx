@@ -5,6 +5,7 @@ import WhyChooseSection from "@/components/WhyChooseSection"
 import VehicleFleetSection from "@/components/VehicleFleetSection"
 import PackagesSection from "@/components/PackagesSection"
 import TestimonialsSection from "@/components/TestimonialsSection"
+import RailwayBookingSection from "@/components/RailwayBookingSection"
 import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
 
@@ -16,6 +17,7 @@ export default function Home() {
       <ServicesSection />
       <WhyChooseSection />
       <VehicleFleetSection />
+      <RailwayBookingSection />
       <PackagesSection />
       <TestimonialsSection />
       <ContactSection />
